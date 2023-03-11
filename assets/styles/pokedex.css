@@ -1,0 +1,12 @@
+.pokemons {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*
+A propriedade display: grid; define que o elemento é um container de grid, ou seja, um sistema de layout baseado em linhas e colunas.
+
+As propriedades margin: 0; padding: 0; list-style: none; são usadas para remover as margens, os espaçamentos internos e os marcadores padrão dos elementos de lista (<ul> ou <ol>). Isso pode ajudar a criar um layout mais limpo e personalizado.
+*/
