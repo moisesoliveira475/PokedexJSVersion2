@@ -4,10 +4,24 @@
 }
 body{
     background-color: #f6f8fc;
+    background-image: url('../images/pexels-johannes-plenio-1423600.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .content{
     background-color: #fff;
     width: 100vw;
     height: 100vh;
     padding: 1rem;
+    background-color: rgba(81, 255, 0, 0.329);
+}
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
 }
