@@ -17,7 +17,7 @@ function convertPokemonToLi(pokemon) {
             <img src="${pokemon.photo}"
                  alt="${pokemon.name}">
         </div>
-    </li>
+    </li>   
 `
 }
 function loadPokemonItens(offset, limit) {
